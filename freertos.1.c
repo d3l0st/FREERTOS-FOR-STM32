@@ -185,6 +185,8 @@ void StartDefaultTask(void *argument)
     rclc_executor_t executor_enc_l_pub;
     rclc_executor_t executor_enc_r_pub;
     rclc_executor_t executor_rpm_pub;
+    rclc_executor_t executor_sub;
+    
 
     std_msgs__msg__Int32 msg;
     std_msgs__msg__Float32 left_enc_rpm;
